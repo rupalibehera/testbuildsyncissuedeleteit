@@ -22,6 +22,7 @@ mavenNode {
     }
 
   } else if (utils.isCD()) {
+    echo "In CD"
     /*
      * Try to load the script ".openshiftio/Jenkinsfile.setup.groovy".
      * If it exists it must contain two functions named "setupEnvironmentPre()"
